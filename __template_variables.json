@@ -2,14 +2,7 @@
   "tags": [
     {
       "name": "QA Title",
-      "tag_type": "text",
-      "tag_source": "static",
-      "use_hmtl_editor_ind": "Y",
-      "use_raw_html_ind": "N",
-      "use_json_editor_ind": "N",
-      "description": "Main page title",
-      "default_value": "Hello from template",
-      "additional_options": null
+      "tag_type": "text"
     },
     {
       "name": "QA Choice",
