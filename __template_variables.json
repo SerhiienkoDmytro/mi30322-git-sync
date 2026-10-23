@@ -1,0 +1,44 @@
+{
+  "tags": [
+    {
+      "name": "QA Title",
+      "tag_type": "text"
+    },
+    {
+      "name": "QA Choice",
+      "tag_type": "select",
+      "tag_source": "static",
+      "use_hmtl_editor_ind": "N",
+      "use_raw_html_ind": "N",
+      "use_json_editor_ind": "N",
+      "description": "Pick one option",
+      "default_value": null,
+      "additional_options": [
+        {
+          "id": "1",
+          "text": "One"
+        },
+        {
+          "id": "2",
+          "text": "Two"
+        }
+      ]
+    },
+    {
+      "name": "QA Notes",
+      "tag_type": "text",
+      "tag_source": "static",
+      "use_hmtl_editor_ind": "N",
+      "use_raw_html_ind": "Y",
+      "use_json_editor_ind": "N",
+      "description": "Free notes",
+      "default_value": "Seed notes",
+      "additional_options": null
+    }
+  ],
+  "settings": {
+    "image_capture_timeout": 45,
+    "image_capture_on_event": "element_appear",
+    "image_capture_css_selector": "#qa-title"
+  }
+}
